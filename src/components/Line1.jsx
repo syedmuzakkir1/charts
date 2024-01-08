@@ -6,10 +6,10 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'r
 
 const Line1 = () => {
   return (
-    <div>Line1
+    <div> <h2>Line1</h2>
 
 
-<LineChart width={600} height={300} data={data}>
+<LineChart width={700} height={500} data={data}>
       <XAxis dataKey="name" />
       <YAxis />
       <CartesianGrid stroke="#eee" strokeDasharray="5 5" />

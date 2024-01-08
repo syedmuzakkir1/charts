@@ -5,12 +5,15 @@ import Bars from './components/Bars'
 import Line1 from './components/Line1'
 import Bar1 from './components/Bar1'
 import Area1 from './components/Area1'
+import StockLine from './components/StockLine'
 
 function App() {
 
   return (
     <>
-   Line Charts  , Bar charts , Area chart using Rechart Library
+    <div className='flex flex-col items-center text-center'>
+   
+   <h1 className='text-2xl font-bold text-blue-500'>Line Charts  , Bar charts , Area chart using Rechart Library</h1>
     {/* <div className='main'>
     <h2 className=''>Line chart</h2>
     <div className='flex items-center justify-center'>
@@ -36,6 +39,11 @@ function App() {
       <Bar1></Bar1>
 
       <Area1></Area1>
+       
+
+       <StockLine/>
+      
+      </div>
    
     </>
   )
